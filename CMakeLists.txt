@@ -5,4 +5,5 @@ project( letsberational )
 
 set(SRCS erf_cody.cpp rationalcubic.cpp normaldistribution.cpp lets_be_rational.cpp)
 add_library(letsberational SHARED ${SRCS})
+install(TARGETS letsberational DESTINATION bin)
 
